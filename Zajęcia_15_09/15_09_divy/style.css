@@ -1,0 +1,64 @@
+div{
+	border: 1px solid red;
+}
+
+#pierwszy{
+		
+		height: 2500px;
+		position: relative;
+}
+			
+#pierwszy > div{
+		
+		height: 400px;
+		background-color: yellow;
+		width: 700px;
+		position: relative;
+		left: 50px;
+		top: 50px;
+		/*display: flex;
+		justify-content: space-around;*/
+}
+#pierwszy > div > div{
+		
+		height: 100px;
+		background-color: green;
+		width: 100px;
+		position: relative;
+		/*float: left;*/
+		/*display: inline-block; - obok siebie sie ustawiaja   /*domyśnie jest block*/
+}
+/*
+#pierwszy > div > div:last-child{
+	left: 102px;*/
+	
+/*#pierwszy > div > div:nth-child(even){ 
+	left: 102px;
+	
+	/*z-index:-1;/*aby schować ustawiamy na -1}/*możemy podać 1 2 3  itd lub odd - niepażyste lub even - pażyste, natomiast kazdy element blokowy jest licziny indexowany*/
+	
+/*#pierwszy > div > div:nth-of-type(even){
+	left: 102px;}  /*odliczmy tylko na divach bez ala ma kota*/
+
+#pierwszy > div > div:nth-of-type(2){
+	left: 100px;
+	top: 120px;
+	background-color: red;
+	z-index: 1;
+	/*position: absolute; /*porusza sie po calym bloku i przyslania realitive bloki/ ustalamy polozenie wzgledem rodzica.
+	a relative zmiana jest wzgldem siebie - bloków*/
+	position:fixed;
+	
+	/*display: none;*/
+	/*visibility: hidden;*/
+}
+#pierwszy > div > div:nth-of-type(2):hover{
+	background-color: white;
+	cursor: pointer;
+	transition: background-color 2s;
+	-webkit-transition: background-color 1s;
+	}
+
+#pierwszy > div > div:nth-of-type(1)::before{
+	content:"test";
+}

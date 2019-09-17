@@ -1,0 +1,63 @@
+h1{
+	/*color:red;*/
+	color:#ff0000;
+	}
+	
+h2{
+	color:blue;
+}-->
+
+.czerwony{
+	color:green /*!important; <!--mozna dodać atrybut important że będzie to nadrzędną oscylacją*/
+}
+
+.czerwony{
+	color:#ff0000;
+}
+
+.niebieski{
+	color:blue;
+}
+
+.pogrubiony{
+
+	font-weight:bold
+}
+
+.pochylony{
+	font-style:italic;
+}
+
+.testowanie{
+	text-transform:uppercase;
+	line-height: 2em;
+	font-size: 1.2em;
+	text-indent: 2em;
+}
+
+p{
+	text-indent: 2em;
+	border: 1px solid red;
+	height: 200px;
+	padding: 20px 15px 20px 15px;
+	box-sizing: border-box;  /*--domyślnie jest content-box--*/
+	/*overflow: hidden;*/
+	overflow-y: scroll;
+	text-align: justify;
+	letter-spacing: 0.3em;
+	word-spacing: 0.1em;
+	font-size: 2em;
+	font-family: Arial, Helvetica, Sans-serif;
+}
+
+.jedno_slowo{
+	letter-spacing: 0.9em;
+}
+
+*{
+	font-family: Sans-serif;
+}
+
+p, div, h1{
+	font-family: Sans-serif;
+}

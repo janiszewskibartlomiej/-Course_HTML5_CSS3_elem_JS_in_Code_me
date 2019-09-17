@@ -1,0 +1,10 @@
+strona na zaliczenie
+
+1. semantyczne elementy html
+2. menu
+3. logo zamiast tekstu na przyciskach
+4. wyszukaj - dodac sekcję z prawej strony menu
+5. stopka footer  nav main header  copyright
+6. musi przechodzic przez walidator w3g  - html i css
+7. one page aplication
+8. obrazek w kazdym artykule 
