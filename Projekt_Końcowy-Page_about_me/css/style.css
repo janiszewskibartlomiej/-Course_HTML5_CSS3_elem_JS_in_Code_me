@@ -111,6 +111,10 @@ nav > ul > li.more:hover .submenu::before{
     
 }
 
+.core li i, h2 i, h4 i, p i {
+    color: RGBA(0,117,167,1);
+}
+
 .core {
     padding: 0em 3em 3em 3em;
 }
