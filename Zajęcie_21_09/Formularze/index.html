@@ -1,0 +1,68 @@
+<!DOCTYPE html> 
+<html lang="pl-PL">
+
+
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<meta charset="UTF-8"/>
+		<meta name="author" content="Jan kowalski"/>
+		<meta name="copyright" content="Cokolwiek"/>
+		<title>Okienka</title>
+		<link rel="stylesheet" href="fontawesome_css/all.css" />
+		<link rel="stylesheet" href="style.css" />
+		<!--<link rel="favicon" href="https://www.placecage.com/30/30" />-->
+		<link rel="shortcut icon" href="https://www.placecage.com/30/30" />
+	
+	</head>
+	
+	<body>
+		<div id="pojemnik">
+			<h1>Sing up</h1>
+			<form id="user_form" action="index.html" method="GET">
+				<fieldset>
+					<legend>Personel data</legend>
+					<label for="user_name">Name:</label> <input type="text" id="user_name" name="user_name" value="Jan" placeholder="Name" required />
+					<label>Surname:<input type="text" id="user_surname" name="user_surname" value="" placeholder="Surname" required /></label>
+					<label>Email:<input type="email" id="user_email" name="user_email" value="" placeholder="example@name.pl" required /></label>
+					<br><br>
+					<label>Password:<input type="password" class="user_password" name="user_password" value="" placeholder="password"/></label>
+					<label>Repeat password:<input type="password" class="repeat_user_password" name="repeat_user_password" value="" placeholder="Repeat password"/></label>
+			<!-- LABEL - TO ETYKIETA W TYM WYPADKU PRZENOSI NA INPUT,  wartości sa pobierane po "name" ->
+			file:///F:/IT/MÓJ%20GITHUB/Course_HTML5_CSS3_elem_JS_in_Code_me/Zajęcie_21_09/Formularze/index.html?user_name=Bartek&user_surname=Janisz&user_email=janisz%40wp.pl&user_password=test&repeat_user_password=test-->
+					<br><br>
+					
+					<h4>Gender:</h4>
+					<label>Male:<input type="radio" value="male" name="gender" checked="checked"</label>
+					<label>Female:<input type="radio" value="female" name="gender"</label>
+					<br><br>
+					
+					
+					
+					<label>
+						Sms permission
+						<input type="checkbox" value="perm_sms" name="perms[]"
+					</label>
+					<label>
+						Tel permission
+						<input type="checkbox" value="perm_tel" name="perms[1]"
+					</label>
+					<label>
+						Email permission
+						<input type="checkbox" value="perm_email" name="perms[2]" <!--[] oznacza zeby wrzucic do tablicy perms dane [2]- np z indexem 2 wrzucamy do tablicy->
+					</label>
+					<br><br>
+					<!--<input type="submit" value="Send">-->
+					
+					<button style="height:50px; width:200px; background-image:url('https://www.placecage.com/200/50')">
+						Send
+						<!--w button możemy wpisać kod html to jest jego zalete-->
+					</button>
+					
+					
+				</fieldset>
+			</form>
+		</div>
+	</body>
+	
+
+</html>

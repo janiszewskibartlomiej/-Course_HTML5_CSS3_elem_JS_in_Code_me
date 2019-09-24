@@ -51,6 +51,7 @@ a{
 	width: 100%;
 	position: absolute;
 	background-color: #b9b4b4;
+	top: 49px;
 	
 	
 }
@@ -74,5 +75,12 @@ a{
 
 .main_menu > ul > li.more:hover .submenu::before{
 	position: absolute;
-	content: "test"
+	content: "\f0d8";
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+	top: -19px;
+	font-size: 2em;
+	color: #b9b4b4;
+	width: 100%;
+	left: 0px;
 }
