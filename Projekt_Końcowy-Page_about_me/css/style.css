@@ -27,9 +27,11 @@ nav a {
 }
 
 nav a:hover {
-    border-bottom: 1px solid #9ac051;
-    
+    border-bottom: 2px solid #9ac051;
+	color: #fe0000;
+	transition: color 1s;
 }
+
 
 nav li {
     padding-right: 3em;
@@ -37,7 +39,7 @@ nav li {
 }
 
 .margin_menu {
-    padding-top: 1em;
+    padding-top: 0.5em;
 }
 
 .main-site {
@@ -64,11 +66,11 @@ nav > ul > li:hover .submenu{
 	padding: 0.1em;
 	position: absolute;
     background-color: #444444;
-	top: 4em;
+	top: 2.9em;
 }
 
 nav > ul > li:hover .submenu li {
-    padding: 0.2em 0.5em 0.2em 0.5em;
+    padding: 0.4em 0.5em 0.4em 0.5em;
     
 }
 
@@ -81,6 +83,10 @@ h2 {
 h4 {
     font-weight: 700;
     font-size: 1.2em;
+}
+
+.logo {
+	height: 2em;
 }
 
 .my_blue {
@@ -111,22 +117,47 @@ nav > ul > li.more:hover .submenu::before{
     
 }
 
-.core li i, h2 i, h4 i, p i {
+.left_margin {
+	margin-left: 1em;
+}
+
+.core li i, h4 i, p i {
     color: RGBA(0,117,167,1);
+}
+
+.core h2 i {
+	color: #000;
 }
 
 .core {
     padding: 0em 3em 3em 3em;
+	display: flex;
 }
 
 .position {
     border: 1px solid red;
-    width: 20em;
-    
+    width: 25%;  
+	text-align: center;
+}
+
+.position h4 {
+	margin-bottom: 0.5em;
+}
+
+.position h2 {
+	font-size: 2em;
+	font-family: 'Quicksand', sans-serif;
 }
 
 .key_informations {
     border: 1px solid green;
+	font-family: 'Dosis', sans-serif;
+	font-size: 1.2em;
+	width: 75%;
+}
+
+.key_informations > ul li {
+	padding-bottom: 0.8em;
 }
 
 span {
@@ -134,11 +165,31 @@ span {
 }
 
 .left {
-    width: 20em;
+    width: 25%;
     border: 1px solid blue;
     
+}
+
+.right {
+    width: 75%;
+    border: 1px solid red;
+    
+}
+
+.left ul li, .left h4 {
+	margin-bottom: 0.5em;
+	margin-left: 1em;
+}
+
+.languages p, .additional_activities p {
+	margin-left: 1em;
 }
 
 .images {
     
 }
+
+.me {
+	font-family: 'Chilanka', cursive;
+}
+
