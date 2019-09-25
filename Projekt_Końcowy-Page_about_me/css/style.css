@@ -26,12 +26,15 @@ nav a {
     ;
 }
 
+.logo:hover {
+    border-bottom-color: #444444;
+}
+
 nav a:hover {
     border-bottom: 2px solid #9ac051;
 	color: #fe0000;
-	transition: color 1s;
+	transition: color 2s;
 }
-
 
 nav li {
     padding-right: 3em;
@@ -136,7 +139,7 @@ nav > ul > li.more:hover .submenu::before{
 
 .position {
     border: 1px solid red;
-    width: 20%;  
+    width: 25%;  
 	text-align: center;
 }
 
@@ -153,7 +156,7 @@ nav > ul > li.more:hover .submenu::before{
     border: 1px solid green;
 	font-family: 'Dosis', sans-serif;
 	font-size: 1.2em;
-	width: 80%;
+	width: 75%;
 }
 
 .key_informations > ul li {
@@ -165,7 +168,7 @@ span {
 }
 
 .left {
-    width: 20%;
+    width: 25%;
     border: 1px solid blue;
     
 }
@@ -178,7 +181,7 @@ span {
 }
 
 .right {
-    width: 80%;
+    width: 75%;
     border: 1px solid red;
     
 }
@@ -192,11 +195,18 @@ span {
 	margin-left: 1em;
 }
 
-.images {
-    
-}
-
 .me {
 	font-family: 'Chilanka', cursive;
 }
 
+.data {
+    width: 15%;
+    height: 100%;
+    border: 1px solid blue;
+}
+
+.points {
+    width: 85%;
+    height: 100%;
+    border: 1px solid red;
+}
