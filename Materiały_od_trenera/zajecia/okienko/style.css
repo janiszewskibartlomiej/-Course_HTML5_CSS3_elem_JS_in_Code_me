@@ -1,0 +1,119 @@
+*{
+	font-family:sans-serif;
+}
+#pojemnik
+{
+	border:1px solid black;
+	background-color: yellow;
+	width: 980px;
+	height:1000px;
+	margin: 0 auto;
+	/*margin: 0 auto 0 auto ;*/
+	padding: 15px;
+	
+}
+
+#pojemnik p:nth-child(even){
+	color:green;	
+}
+img {
+	/*vertical-align: middle;*/
+}
+
+#okienko{
+	
+	position: fixed;
+	border: 1px solid black;
+	width: 300px;
+	height:300px;
+	background-color: #fff;
+	z-index: 1;
+	box-shadow: 10px 10px 8px 2px #888888;
+	animation: okienko_animacja 2s infinite;
+	
+	
+	
+			
+}
+
+#okienko div p{	
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding : 15px;
+  
+}
+#okienko  header  h3{
+	
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	width:250px;
+	height: 25px;
+	margin: 0px;
+	font-size: 12px;
+	float:left;
+	box-sizing:border-box;
+	text-align:center;
+	padding-top:5px;
+	
+}
+#okienko  header  #krzyzyk{
+	float:left;
+	height: 25px;
+	border-bottom: 1px solid black;
+	width: 50px;
+	box-sizing:border-box;
+	color:red;
+	font-size:20px;
+	text-align:center;
+	cursor:pointer;
+}
+
+
+#okienko header, #okienko h3 {
+	padding:0px;
+}
+#okienko header{
+
+}
+
+#okienko > div {
+	clear:both;
+}
+header+div{
+	/*color:red;*/
+}
+
+
+#okienko  header  #krzyzyk:hover i::before{
+	content: "\f714";
+}
+
+
+@keyframes okienko_animacja{
+	0%    {left:20px; top: 20px;}  
+	25%   {left:500px; top: 20px;}
+	50%   {left:500px; top: 20px;}
+	75%   {left:500px; top:100px;}
+	100%  {left:20px; top: 20px;}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

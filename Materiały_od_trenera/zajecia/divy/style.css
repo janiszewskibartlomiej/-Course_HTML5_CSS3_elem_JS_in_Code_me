@@ -1,0 +1,67 @@
+div{
+	border: 1px solid black;
+}
+#pierwszy{	
+	height: 2500px;	
+	position:relative;
+}
+#pierwszy > div{
+	height:400px;
+	background-color: yellow;
+	width: 700px;
+	position:relative;
+	left:100px;
+	top: 50px;
+	/*
+	display:flex;
+	justify-content:space-around;
+	*/
+}
+
+#pierwszy > div > div{
+	height:100px;
+	background-color: green;
+	width: 100px;
+	position:relative;
+	/*float:left;*/
+	/*display:inline-block;*/
+	
+}
+/* 
+   :nth-child(even)
+   :nth-of-type(1)
+*/
+#pierwszy > div > div:nth-of-type(2){ /* 1 2  3 .. ale możemy też odd albo even*/
+	left:102px;
+	top:120px;
+	background-color:red;
+	/*position: absolute;*/
+	position: fixed;
+	z-index:1;
+	
+	/*display:none;*/
+	/*visibility:hidden;*/	
+}
+
+#pierwszy > div > div:nth-of-type(2):hover{
+	transition: background-color 2s;
+	-webkit-transition: background-color 2s;
+	background-color:#fff;
+	cursor:pointer;
+}
+
+/*
+::after oraz   ::before
+*/
+#pierwszy > div > div:nth-of-type(1)::after{
+	content: 'test';
+}
+
+
+
+
+
+
+
+
+
