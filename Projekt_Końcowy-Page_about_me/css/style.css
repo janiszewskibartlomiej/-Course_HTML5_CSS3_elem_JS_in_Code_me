@@ -259,3 +259,141 @@ button:hover {
 	50% {background-image: url(/images/Me_216x300_2.jpg)}
 	100% {background-image: url(/images/Me_216x300_3.jpg)}
 }
+
+/*Footer*/
+
+footer {
+    display: flex;
+    background-color: #444444;
+    padding: 3em 7em;
+    color: #fff;
+}
+
+footer > section {
+    width: 16em;
+}
+
+.about-us h5 {
+    font-family: "Times New Roman", serif;
+    font-weight: 200;
+    margin: 0 0 .5em 0;
+    font-size: 1.7em;
+}
+
+.about-us p {
+    font-size: 1.3em;
+    line-height: 1.2;
+    margin: 0 0 1em 0;
+}
+
+.social-media {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.social-media li {
+    background-color: #9ac051;
+    margin-right: .7em;
+    height: 2.1em;
+    width: 2.1em;
+    border-radius: .4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+social-media a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.contact-details {
+    width: 12em;
+    margin-left: 2em;
+    margin-top: .2em
+}
+
+.contact-details ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-details li {
+    font-size: 1.2em;
+    margin-bottom: .8em;
+    display: flex;
+}
+
+.contact-details i {
+    margin-right: 1em;
+    color: #9ac051;
+}
+
+.contact-details li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: .9em;
+}
+
+.quick-links {
+    display: flex;
+    width: 22em;
+    margin-left: 3em;
+}
+
+.quick-links ul {
+    padding: 0;
+    margin: 0 1em 0 0;
+    list-style: none;
+    width: 10em;
+}
+
+.quick-links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.quick-links li {
+    border-bottom: .5px solid #666464;
+    padding: 0.51em 0;
+}
+
+.quick-links ul li:first-child {
+    padding-top: 0;
+}
+
+.quick-links a i {
+    color: #9ac051;
+    font-size: 1em;
+    margin-right: 0.5em;
+}
+
+/*Copyright*/
+
+.copyright {
+    background-color: #9ac051;
+    height: 3em;
+    color: #fff;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright p {
+    margin: 0;
+    font-size: 1em;
+    
+}
+
+.copyright a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1em;
+}
+
