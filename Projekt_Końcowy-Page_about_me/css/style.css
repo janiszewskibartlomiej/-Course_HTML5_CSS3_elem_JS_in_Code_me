@@ -160,6 +160,7 @@ h4 {
 .position {
     width: 25%;  
 	text-align: center;
+    padding-right: 5em;
 }
 
 .position h4 {
@@ -282,6 +283,7 @@ span {
 .points_respon {
     padding-left: 1em;
     width: 85%;
+    margin-bottom: 1em;
 }
 
 .responsibilities li {
@@ -352,8 +354,6 @@ span {
     margin-top: .2em;
     margin-bottom: 1em
 }
-
-
 
 .college {
     font-family: 'Inconsolata', monospace;

@@ -1,7 +1,5 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="pl-PL">
-
-
 	<head>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta charset="UTF-8" />
@@ -18,43 +16,38 @@
 		<link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Big+Shoulders+Display&display=swap" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet" />
-	
 	</head>
-	
 	<body>
-		<header>
+		<header id="header">
 			<nav>
 				<ul>
                     <li>
-                        <a href=""><img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg"></a>
+                        <a href=""><img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Logo Python"></a>
                     </li>
 					<li class="margin_menu">
-                        <a class="main-site"href="#">Why me?</a>
+                        <a class="main-site" href="#me">Why me?</a>
                             </li>
-					<li class="margin_menu"><a href="#">Experience</a></li>
-					<li class="margin_menu"><a href="#">Education</a></li>
-					<li class="margin_menu"><a href="#">Certificates</a></li>
+					<li class="margin_menu"><a href="#experience">Experience</a></li>
+					<li class="margin_menu"><a href="#education">Education</a></li>
+					<li class="margin_menu"><a href="#certificates">Certificates</a></li>
                     <li class="more margin_menu">
 						<a class="more" href="#">More
 							<i class="fas fa-chevron-right"></i>
 						</a>
 						
 						<ul class="submenu">
-							<li><a href="#">Personal Info</a></li>
-							<li><a href="#">Skills</a></li>
-							<li><a href="#">Languages</a></li>
-							<li><a href="#">Additional Activities</a></li>
-							<li><a href="#">Interests</a></li>
+							<li><a href="#personal">Personal Info</a></li>
+							<li><a href="#skills">Skills</a></li>
+							<li><a href="#languages">Languages</a></li>
+							<li><a href="#additional">Additional Activities</a></li>
+							<li><a href="#interests">Interests</a></li>
 						</ul>
 					</li>
                     <li class="search">
-                        <label>
-                            Search on page: <input type="text" id="search" name="serch" placeholder="Enter the text">
-                            <button>search</button>
-                        </label>
+                        <label>Search on page: <input type="text" id="search" name="serch" placeholder="Enter the text">
+                            <button>search</button></label>
                     </li>
 				</ul>
-                
 			</nav>
 		</header>
 		<main>
@@ -65,9 +58,9 @@
                     <h4 class="my_blue me">Software Tester in work</h4>
 					<h4 class="my_blue me">with the developer's heart</h4>
                 </div>
-                <div class="key_informations">
+                <div id="me" class="key_informations">
                     <ul>
-                    <li>I have <span>Python Advancedand</span>, basic level, <span>SQL</span>, <span>ISTQB FL</span>, <span>HTML5</span>, <span>CSS3</span> and <span>TestAutomation</span> certificate.</li>
+                    <li>I have <span>Python Advancedand</span>, basic level, <span>SQL</span>, <span>ISTQB FL</span>, <span>HTML 5</span>, <span>CSS 3</span> and <span>TestAutomation</span> certificate.</li>
                     <li>My current target is practical <span>Python coding</span> and <span>data science</span></li>
                     <li>It is worth investing in me because I am <span>loyal</span> and I will gladly acquire newqualifications in order to achieve success in <span>your company!</span></li>
                     <li>My motivation is my Wife and 4 children.</li>
@@ -78,7 +71,7 @@
                 <section class="left">
                     <div class="images"></div>
                     <br>
-                    <article class="personal_info">
+                    <article id="personal" class="personal_info">
                         <h2><i class="fas fa-user-check"></i> Personal info</h2>
                         <br>
                     <h4><i class="fas fa-envelope"></i> E-mail</h4>
@@ -99,7 +92,7 @@
                         <br>
                         <br>
                     </article>
-                    <article class="skills">
+                    <article id="skills" class="skills">
                         <h2><i class="fas fa-puzzle-piece"></i> Skills</h2>
                         <br>
                     <ul>
@@ -145,7 +138,7 @@
 						</li>    
                     </ul><br>
                     </article>
-                    <article class="languages">
+                    <article id="languages" class="languages">
                         <h2><i class="fas fa-globe-americas"></i> Languages</h2>
                         <br>
                         <p>
@@ -153,7 +146,7 @@
                         </p>
                         <br>
                     </article>
-                    <article class="additional_activities">
+                    <article id="additional" class="additional_activities">
                         <h2><i class="fas fa-hand-holding-heart"></i> Additional activities</h2>
                         <br>
                         <h4><i class="fas fa-church"></i> Caritas</h4>
@@ -162,7 +155,7 @@
                         <br>
                         <br>
                     </article>
-                    <article class="interests">
+                    <article id="interests" class="interests">
                         <h2>
 							<i class="fas fa-search-location"></i>
 							Interests
@@ -194,7 +187,8 @@
                 </section>
                 <section class="right">
                     <section>
-                        <h2><i class="fas fa-code-branch"></i> Experience</h2>
+                        <h2 id="experience"><i class="fas fa-code-branch"></i> Experience</h2>
+                        <br>
                         <br>
 						<article class="experience">
 							<div class="fnx">
@@ -230,15 +224,17 @@
                                         <div>
                                             <br>
                                             <p class="tools">
-                                               TOOLS: <span>MySQL</span>, <span>SQL</span>, <span>Git</span>, <span>HTML5</span>, <span>CSS3</span>, <span>Postman</span>, <span>TYPO3</span> CMS, <span>Targetprocess</span>, <span>Redmine</span>, Chrome <span>devtool</span>, <span>Selenium IDE</span>, Katalon Recorder,Screenpresso, Slack,
+                                               TOOLS: <span>MySQL</span>, <span>SQL</span>, <span>Git</span>, <span>Python</span>, <span>HTML5</span>, <span>CSS3</span>, <span>Postman</span>, <span>TYPO3</span> CMS, <span>Targetprocess</span>, <span>Redmine</span>, Chrome <span>devtool</span>, <span>Selenium IDE</span>, Katalon Recorder,Screenpresso, Slack,
                                                 Podio, Skype. 
                                             </p>
                                         </div>
                                     </div>
                                 </div>
-                    <section>
+                        </article>
+                    <section id="education">
                         <br>
                         <h2><i class="fas fa-user-graduate"></i> Education</h2>
+                        <br>
                         <br>
 						<section class="education">
 							<article class="wsb_big_data">
@@ -286,12 +282,11 @@
                                     </div>
                                  </div>
                              </article>
-							
 						</section>
-						
                     </section>
-                    <section class="certificates">
+                    <section id="certificates" class="certificates">
                         <h2><i class="fas fa-trophy"></i> Certificates</h2>
+                        <br>
                         <br>
                         <section class="certificates">
                             <article class="test_automation">
@@ -333,7 +328,6 @@
 				    </section>
                 </section> 
             </section> 
-            </section>
             </section>
 		</main>
 		<footer>
@@ -390,54 +384,54 @@
             <section class="quick-links">
                 <ul>
                     <li>
-                        <a href="#">
+                        <a href="#me">
                             <i class="fas fa-chevron-right"></i>Why me?
                         </a>
                     </li>    
                     <li>
-                        <a href="#">
+                        <a href="#experience">
                             <i class="fas fa-chevron-right"></i>Experience
                         </a>
                     </li>    
                     <li>
-                        <a href="#">
+                        <a href="#education">
                             <i class="fas fa-chevron-right"></i>Education
                         </a>
                     </li>    
                     <li>
-                        <a href="#">
+                        <a href="#certificates">
                             <i class="fas fa-chevron-right"></i>Certificates
                         </a>
                     </li>    
                     <li>
-                        <a href="#">
+                        <a href="#header">
                             <i class="fas fa-chevron-right"></i>Go to top site
                         </a>
                     </li>    
                 </ul>
                 <ul>
                     <li>
-                        <a href="#">
+                        <a href="#personal">
                             <i class="fas fa-chevron-right"></i>Personal info
                         </a>
                     </li>    
                     <li>
-                        <a href="#">
+                        <a href="#skills">
                             <i class="fas fa-chevron-right"></i>Skills
                         </a>
                     </li>    
                     <li>
-                        <a href="#">
+                        <a href="#languages">
                             <i class="fas fa-chevron-right"></i>Languages
                         </a>
                     </li>    
                     <li>
-                        <a href="#">
+                        <a href="#additional">
                             <i class="fas fa-chevron-right"></i>Additional activities
                         </a>
                     </li>    
                     <li>
-                        <a href="#">
+                        <a href="#interests">
                             <i class="fas fa-chevron-right"></i>Interests
                         </a>
                     </li>    
@@ -447,8 +441,5 @@
         <section class="copyright">
             <p>&copy; Copyright 2019 Bart. Wszelkie prawa zastrzeżone</p>
         </section>
-	
 	</body>
-	
-
 </html>
