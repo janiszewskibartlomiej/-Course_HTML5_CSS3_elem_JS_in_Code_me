@@ -1,0 +1,49 @@
+.contener {
+	margin: 0 auto;
+	width: 900px;
+	height: 900px;
+	background-color: yellow;
+	border: 1px solid red;
+}
+
+table {
+	border-collapse: collapse; /*ustawia obrys tylko na wewnetrznych*/
+}
+
+table, td, th {
+	border: 1px solid black;
+	text-align: center;
+}
+
+td {
+	padding: 10px;
+	width: 100px;
+	vertical-align: top;
+	height: 100px;
+}
+
+/*table tbody tr:first-of-type td:last-of-type {
+text-align: right;}*/
+
+table tbody tr td:last-of-type,
+table tfoot tr td:last-of-type
+ {
+text-align: right;}
+
+table tbody tr:nth-child(2n) td {
+	background-color: #bababa;
+}
+
+
+/*table tbody tr.ne:first-of-type td:first-of-type {
+	background-color: none;
+}*/
+
+table tbody tr td[rowspan] {
+	background: none;
+}
+
+table tbody tr:nth-child(odd) td:not(.wysokie) {
+	background-color: #fff;}
+
+/*table tbody tr:nth-child(even) td:not(.wysokie) {background-color: none;}*/

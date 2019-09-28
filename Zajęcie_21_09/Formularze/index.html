@@ -40,23 +40,41 @@
 					
 					<label>
 						Sms permission
-						<input type="checkbox" value="perm_sms" name="perms[]"
+						<input type="checkbox" value="perm_sms" name="perms1[]"
 					</label>
 					<label>
 						Tel permission
-						<input type="checkbox" value="perm_tel" name="perms[1]"
+						<input type="checkbox" value="perm_tel" name="perms[2]"
 					</label>
 					<label>
 						Email permission
-						<input type="checkbox" value="perm_email" name="perms[2]" <!--[] oznacza zeby wrzucic do tablicy perms dane [2]- np z indexem 2 wrzucamy do tablicy->
+						<input type="checkbox" value="perm_email" name="perms[3]" 
+						<!--[] oznacza zeby wrzucic do tablicy perms dane [2]- np z indexem 2 wrzucamy do tablicy->
 					</label>
 					<br><br>
 					<!--<input type="submit" value="Send">-->
+					<br>
+					<br>
+					<label>Write somefing:</label>
+					<textarea style="overflow-y: scroll; resize: none" rows="20" cols="100" name="description">
+					</textarea>
+					<br>
 					
-					<button style="height:50px; width:200px; background-image:url('https://www.placecage.com/200/50')">
-						Send
+					<br>
+					<label for="kolor">Select your favourite color:</label>
+					<select id="kolor" name="kolor">
+						<option value="1" >Czerwony</option>
+						<option value="2" selected>Zielony</option>
+						<option value="3" >Niebieski</option>
+					<br>
+					<br>
+					<br>
+					<input type="submit">
+					<br>
+					<br>
+					<button style="height:50px; width:200px; background-image:url(https://www.placecage.com/200/50)">Send</button>
 						<!--w button możemy wpisać kod html to jest jego zalete-->
-					</button>
+					
 					
 					
 				</fieldset>

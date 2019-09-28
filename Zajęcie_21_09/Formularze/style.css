@@ -1,0 +1,26 @@
+input#user_name {
+	/*outline-color: red;
+	/*outline-width: 2px;
+	outline-style: solid;*/
+}
+
+input[name="user_name"] {
+	padding: 10px;
+	border: 1px solid green;
+	border-radius: 10px;
+}
+
+/*[] poprzez ten nawias odwolujemy sie do atrybutów*/
+
+input[name^="user"] {
+	padding: 10px;
+	border: 1px solid green;
+	border-radius: 10px;
+	margin: 10px;
+	outline-offset: 5px;
+}
+
+input[name^=user]:focus {
+	outline: 5px solid red;
+	border: 1px solid red;
+}
